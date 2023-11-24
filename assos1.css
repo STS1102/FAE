@@ -1,0 +1,15 @@
+/* Styles spécifiques à votre projet */
+
+/* Exemple de style pour le titre dans la section "Bienvenue" */
+.titre {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Exemple de style pour la section de présentation */
+#presentation {
+    margin-bottom: 30px;
+}
+
+/* Styles Bootstrap - Aucune modification requise ici, à moins que vous ne souhaitiez personnaliser spécifiquement les composants Bootstrap. */
+/* Les styles Bootstrap sont déjà inclus dans le fichier "bootstrap.min.css" que vous avez lié dans votre fichier HTML. */

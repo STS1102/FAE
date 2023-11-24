@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century ;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(./fond.jpg);
+ height: 100vh;
+ background-size: cover;
+background-position: center;
+}
+
+header {
+ background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./fond.jpg);
+ height: 100vh;
+ background-size: cover;
+background-position: center;
+}
+
+.logo a{
+    color:#fff;
+    padding : 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.logo span {
+    color: rgb(238, 56 , 11);
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+nav ul {
+    list-style: none;
+  float: right;
+  display: flex;
+  margin-top: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+nav ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+
+nav ul li.active a{
+    background: #fff;
+    color: #000;
+}
+
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.titre{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: #e91818;
+    font-size: 60px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.titre{
+    animation: fadeIn 6s ease-out; 
+}
+    
+
+.titre1{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: #e91818;
+    font-size: 50%;
+}
+    
+.present{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.contact{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.contact{
+    color: #fff;
+    font-size: 40px;
+}
+.contact p{
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.inscription {
+    position:absolute;
+        padding: 20px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+        text-align: center;
+}
+
+.form{
+    text-align: center;
+    margin: auto;
+    width: 400px; 
+}
+
+form {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form label {
+    margin: 10px 0;
+    font-size: 25px;
+    color: #ffffff;
+
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+#foot{
+    background-size: cover;
+background-position: center;
+position: relative;
+}
+
+#foot img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%; 
+    height: 100%;
+}
+
+
+#danse{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#danse img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%; 
+    height: 100%;
+}
+
+#basket{
+    background-size: cover;
+background-position: center;
+position: relative;
+}
+
+#basket img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%; 
+    height: 100%;
+}
+
+#athlete{
+    background-size: cover;
+background-position: center;
+position: relative;
+}
+#athlete img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%; 
+    height: 100%;
+}
+
+.li {
+    color: #000000;
+    margin-left: 15%;
+}
+
+.strong {
+    Color: #e70909;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+a {
+    color: #007BFF; 
+}
+
+
+#presentation p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+
+}
+
+#presentation h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+    color: #e91818;
+    text-decoration: underline;
+}
+
+#inscription p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 43%;
+}
+
+#inscription li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 45%;
+}
+
+#inscription h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+    color: #e91818;
+    margin-left: 43%;
+    text-decoration: underline;
+}
+
+#inscription{
+    position: relative;
+}
+#inscription img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%; 
+    height: 100%;
+}
+
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+footer p{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+    nav ul li {
+        margin-right: 10px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
