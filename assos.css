@@ -343,20 +343,33 @@ footer p{
 }
 
 
-@media (max-width: 768px) {
-    header {
-        padding: 10px 0;
+@media (max-width: 600px) {
+    header .principal {
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
     }
-    nav ul li {
-        margin-right: 10px;
+    header .logo a {
+        font-size: 16px;
     }
-    h2 {
-        font-size: 20px;
+    header nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
     }
-    p {
+    header nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+    header nav ul li a {
         font-size: 14px;
     }
+    .titre h1 {
+        font-size: 24px;
+    }
 }
+
+
 
 
 
